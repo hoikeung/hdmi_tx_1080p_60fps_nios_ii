@@ -1,0 +1,106 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 416 272)
+	(text "nios_ii" (rect 190 -1 213 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 256 20 268)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 176 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "i2c_0_i2c_serial_sda_in" (rect 0 0 95 12)(font "Arial" (font_size 8)))
+		(text "i2c_0_i2c_serial_sda_in" (rect 4 101 142 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 176 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "i2c_0_i2c_serial_scl_in" (rect 0 0 92 12)(font "Arial" (font_size 8)))
+		(text "i2c_0_i2c_serial_scl_in" (rect 4 117 142 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 176 128)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 229 82 240)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 176 240)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(output)
+		(text "i2c_0_i2c_serial_sda_oe" (rect 0 0 99 12)(font "Arial" (font_size 8)))
+		(text "i2c_0_i2c_serial_sda_oe" (rect 4 133 142 144)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 176 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(output)
+		(text "i2c_0_i2c_serial_scl_oe" (rect 0 0 95 12)(font "Arial" (font_size 8)))
+		(text "i2c_0_i2c_serial_scl_oe" (rect 4 149 142 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 176 160)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(output)
+		(text "led_external_connection_export" (rect 0 0 125 12)(font "Arial" (font_size 8)))
+		(text "led_external_connection_export" (rect 4 189 184 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 176 200)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 161 43 340 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 181 67 380 144)(font "Arial" (color 0 0 0)))
+		(text "i2c_0_i2c_serial" (rect 82 83 260 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "sda_in" (rect 181 107 398 224)(font "Arial" (color 0 0 0)))
+		(text "scl_in" (rect 181 123 398 256)(font "Arial" (color 0 0 0)))
+		(text "sda_oe" (rect 181 139 398 288)(font "Arial" (color 0 0 0)))
+		(text "scl_oe" (rect 181 155 398 320)(font "Arial" (color 0 0 0)))
+		(text "led_external_connection" (rect 37 171 212 355)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 181 195 398 400)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 147 211 324 435)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 181 235 404 480)(font "Arial" (color 0 0 0)))
+		(text " nios_ii " (rect 386 256 826 522)(font "Arial" ))
+		(line (pt 176 32)(pt 240 32)(line_width 1))
+		(line (pt 240 32)(pt 240 256)(line_width 1))
+		(line (pt 176 256)(pt 240 256)(line_width 1))
+		(line (pt 176 32)(pt 176 256)(line_width 1))
+		(line (pt 177 52)(pt 177 76)(line_width 1))
+		(line (pt 178 52)(pt 178 76)(line_width 1))
+		(line (pt 177 92)(pt 177 164)(line_width 1))
+		(line (pt 178 92)(pt 178 164)(line_width 1))
+		(line (pt 177 180)(pt 177 204)(line_width 1))
+		(line (pt 178 180)(pt 178 204)(line_width 1))
+		(line (pt 177 220)(pt 177 244)(line_width 1))
+		(line (pt 178 220)(pt 178 244)(line_width 1))
+		(line (pt 0 0)(pt 416 0)(line_width 1))
+		(line (pt 416 0)(pt 416 272)(line_width 1))
+		(line (pt 0 272)(pt 416 272)(line_width 1))
+		(line (pt 0 0)(pt 0 272)(line_width 1))
+	)
+)

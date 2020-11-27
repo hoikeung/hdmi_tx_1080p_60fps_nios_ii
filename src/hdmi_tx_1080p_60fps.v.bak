@@ -1,0 +1,16 @@
+module hdmi_tx_1080p_60fps(
+	input FPGA_CLK1_50,
+	
+	inout HDMI_I2C_SCL,
+   inout HDMI_I2C_SDA,
+	
+   input HDMI_TX_INT,
+   
+	output HDMI_TX_CLK,
+   output [23:0] HDMI_TX_DATA,
+   output HDMI_TX_DE,
+	output HDMI_TX_HS,
+	output HDMI_TX_VS
+);
+
+endmodule

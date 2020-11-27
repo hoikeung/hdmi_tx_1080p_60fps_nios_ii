@@ -1,0 +1,165 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/simulation/modelsim
+vhdmi_tx_1080p_60fps
+Z1 !s110 1591527416
+!i10b 1
+!s100 @PZ[N4dPgW>Joi>o0=EG`3
+IeEi6ICkDeZBSIQiDzi@Jc0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1591527384
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/hdmi_tx_1080p_60fps.v
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/hdmi_tx_1080p_60fps.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1591527416.000000
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/hdmi_tx_1080p_60fps.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/hdmi_tx_1080p_60fps.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src
+Z7 tCvgOpt 0
+vI2C_Controller
+R1
+!i10b 1
+!s100 =nTjf4Y@9kH@dmE4BCDHm2
+IYo?NR5:]<=[d;hhXG8^J63
+R2
+R0
+w1591422585
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_Controller.v
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_Controller.v
+L0 43
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_Controller.v|
+!i113 1
+R5
+R6
+R7
+n@i2@c_@controller
+vI2C_HDMI_Config
+R1
+!i10b 1
+!s100 ]SzD8=>Z:_Xe:4LNN8_BR2
+IORnY@0@ldM]2H^ndjV1Eh0
+R2
+R0
+w1591458133
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_HDMI_Config.v
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_HDMI_Config.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_HDMI_Config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_HDMI_Config.v|
+!i113 1
+R5
+R6
+R7
+n@i2@c_@h@d@m@i_@config
+vI2C_WRITE_WDATA
+R1
+!i10b 1
+!s100 5WaJ4L6HoCF]_^F;`3^^B3
+ILCJPe]m70n_=hIT^W^>UG0
+R2
+R0
+w1591422621
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_WRITE_WDATA.v
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_WRITE_WDATA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_WRITE_WDATA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_WRITE_WDATA.v|
+!i113 1
+R5
+R6
+R7
+n@i2@c_@w@r@i@t@e_@w@d@a@t@a
+vpll
+R1
+!i10b 1
+!s100 g;hP=>4jSLDfghZdYoC@J3
+IKLlkTmSYWWC[_ZR7W8bBP3
+R2
+R0
+w1591279004
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo
+L0 32
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo|
+!s90 -reportprogress|300|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo|
+!i113 1
+R7
+vtb_hdmi_tx_1080p_60fps
+R1
+!i10b 1
+!s100 H`X`Ui0K=CDh5LDl2OI>k2
+ICjE>=Sb?g3>L8D^^H@^FR3
+R2
+R0
+w1591527385
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/tb_hdmi_tx_1080p_60fps.v
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/tb_hdmi_tx_1080p_60fps.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/tb_hdmi_tx_1080p_60fps.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/tb_hdmi_tx_1080p_60fps.v|
+!i113 1
+R5
+R6
+R7
+vvideo_generator
+R1
+!i10b 1
+!s100 TLldgi?fg@H?z;07mJ_A52
+I55Cc?75jICXFYAm;hT4kT1
+R2
+R0
+w1591459426
+8D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/video_generator.v
+FD:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/video_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/video_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src|D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/video_generator.v|
+!i113 1
+R5
+R6
+R7

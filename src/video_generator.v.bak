@@ -1,0 +1,23 @@
+module video_generator(
+	input clk,              
+   input reset_n,                                                
+   output reg vga_hs,             
+   output reg vga_vs,           
+   output reg vga_de,
+   output reg [7:0] vga_r,
+   output reg [7:0] vga_g,
+   output reg [7:0] vga_b 
+);
+
+reg  [11:0] h_total, h_sync, h_start, h_end; 
+reg  [11:0] v_total, v_sync, v_start, v_end; 
+reg  [11:0] v_active_14, v_active_24, v_active_34; 
+
+always @ (1)
+begin
+	{h_total, h_sync, h_start, h_end} <= {12'd2199, 12'd43, 12'd189, 12'd2109}; 
+	{v_total, v_sync, v_start, v_end} <= {12'd1124, 12'd4, 12'd40, 12'd1120}; 
+	{v_active_14, v_active_24, v_active_34} <= {12'd310, 12'd580, 12'd850};
+end
+
+endmodule

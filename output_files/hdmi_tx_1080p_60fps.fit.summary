@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sat Jul 04 13:37:16 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : hdmi_tx_1080p_60fps
+Top-level Entity Name : hdmi_tx_1080p_60fps
+Family : Cyclone V
+Device : 5CSEMA6U23I7
+Timing Models : Final
+Logic utilization (in ALMs) : 1,222 / 41,910 ( 3 % )
+Total registers : 1767
+Total pins : 36 / 314 ( 11 % )
+Total virtual pins : 0
+Total block memory bits : 539,976 / 5,662,720 ( 10 % )
+Total RAM Blocks : 73 / 553 ( 13 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

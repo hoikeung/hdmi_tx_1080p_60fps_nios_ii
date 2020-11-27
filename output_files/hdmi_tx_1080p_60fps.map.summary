@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sat Jul 04 13:35:53 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : hdmi_tx_1080p_60fps
+Top-level Entity Name : hdmi_tx_1080p_60fps
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 1702
+Total pins : 36
+Total virtual pins : 0
+Total block memory bits : 539,976
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

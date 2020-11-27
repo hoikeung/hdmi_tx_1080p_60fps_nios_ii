@@ -1,0 +1,160 @@
+# Reading C:/intelFPGA/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do hdmi_tx_1080p_60fps_run_msim_rtl_verilog.do
+# if ![file isdirectory hdmi_tx_1080p_60fps_iputf_libs] {
+# 	file mkdir hdmi_tx_1080p_60fps_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src {D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/hdmi_tx_1080p_60fps.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src" D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/hdmi_tx_1080p_60fps.v 
+# -- Compiling module hdmi_tx_1080p_60fps
+# 
+# Top level modules:
+# 	hdmi_tx_1080p_60fps
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src {D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_HDMI_Config.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src" D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_HDMI_Config.v 
+# -- Compiling module I2C_HDMI_Config
+# 
+# Top level modules:
+# 	I2C_HDMI_Config
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src {D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_Controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src" D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_Controller.v 
+# -- Compiling module I2C_Controller
+# 
+# Top level modules:
+# 	I2C_Controller
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src {D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_WRITE_WDATA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src" D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/I2C_WRITE_WDATA.v 
+# -- Compiling module I2C_WRITE_WDATA
+# 
+# Top level modules:
+# 	I2C_WRITE_WDATA
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src {D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/video_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src" D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/video_generator.v 
+# -- Compiling module video_generator
+# 
+# Top level modules:
+# 	video_generator
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src {D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/tb_hdmi_tx_1080p_60fps.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:56 on Jun 07,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src" D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/src/tb_hdmi_tx_1080p_60fps.v 
+# -- Compiling module tb_hdmi_tx_1080p_60fps
+# 
+# Top level modules:
+# 	tb_hdmi_tx_1080p_60fps
+# End time: 19:56:56 on Jun 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_hdmi_tx_1080p_60fps
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_hdmi_tx_1080p_60fps 
+# Start time: 19:56:57 on Jun 07,2020
+# Loading work.tb_hdmi_tx_1080p_60fps
+# Loading work.pll
+# Loading sv_std.std
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.video_generator
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Too few port connections. Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_hdmi_tx_1080p_60fps/u_pll/pll_altera_pll_altera_pll_i_639 File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) D:/Desktop/FPGA/Learn/hdmi_tx_1080p_60fps/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: veryf  Hostname: DESKTOP-N4CP9JR  ProcessID: 16884
+#           Attempting to use alternate WLF file "./wlft22w2ks".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft22w2ks
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb_hdmi_tx_1080p_60fps.u_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 6736.864798 to 6666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb_hdmi_tx_1080p_60fps.u_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb_hdmi_tx_1080p_60fps.u_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 148.437 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 3333.333333
+# Info: output_clock_low_period = 3333.333333
+# Break key hit
+# Break in VlGenerateBlock new_model in file /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# End time: 19:58:06 on Jun 07,2020, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 24
